@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 560" fill="none">
+  <g stroke="#EBC96F" stroke-width="1.5">
+    <circle cx="280" cy="280" r="238"/>
+    <circle cx="280" cy="280" r="222"/>
+    <circle cx="280" cy="280" r="178"/>
+    <circle cx="280" cy="280" r="165"/>
+    <circle cx="280" cy="280" r="118"/>
+    <circle cx="280" cy="280" r="104"/>
+    <path d="M280 42v32m0 382v32M42 280h32m382 0h32M112 112l23 23m290 290 23 23m0-336-23 23M135 425l-23 23"/>
+    <g id="petal">
+      <path d="M280 76c-39 33-47 75 0 111 47-36 39-78 0-111Z"/>
+      <path d="M280 92c-20 27-22 52 0 73 22-21 20-46 0-73Z"/>
+      <circle cx="280" cy="112" r="5"/>
+    </g>
+    <use href="#petal" transform="rotate(30 280 280)"/>
+    <use href="#petal" transform="rotate(60 280 280)"/>
+    <use href="#petal" transform="rotate(90 280 280)"/>
+    <use href="#petal" transform="rotate(120 280 280)"/>
+    <use href="#petal" transform="rotate(150 280 280)"/>
+    <use href="#petal" transform="rotate(180 280 280)"/>
+    <use href="#petal" transform="rotate(210 280 280)"/>
+    <use href="#petal" transform="rotate(240 280 280)"/>
+    <use href="#petal" transform="rotate(270 280 280)"/>
+    <use href="#petal" transform="rotate(300 280 280)"/>
+    <use href="#petal" transform="rotate(330 280 280)"/>
+    <path d="M280 220c-25 16-35 38 0 58 35-20 25-42 0-58Zm-58 60c16-25 38-35 58 0-20 35-42 25-58 0Zm58 58c-25-16-35-38 0-58 35 20 25 42 0 58Zm58-58c-16 25-38 35-58 0 20-35 42-25 58 0Z"/>
+    <circle cx="280" cy="280" r="12"/>
+  </g>
+</svg>

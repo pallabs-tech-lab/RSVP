@@ -1,0 +1,26 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Start Save the Date RSVP server",
+      "type": "process",
+      "command": "node",
+      "args": ["${workspaceFolder}\\server.mjs"],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "isBackground": true,
+      "problemMatcher": {
+        "owner": "custom",
+        "pattern": {
+          "regexp": "^$"
+        },
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": "^Wedding RSVP server starting$",
+          "endsPattern": "^Wedding RSVP server listening at http://localhost:3000$"
+        }
+      }
+    }
+  ]
+}

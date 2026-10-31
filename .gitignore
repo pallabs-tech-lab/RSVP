@@ -1,0 +1,8 @@
+node_modules
+dist
+.DS_Store
+*.local
+.env
+.env.*
+/save-the-date/data/rsvps.json
+/save-the-date/data/rsvps-*.tmp

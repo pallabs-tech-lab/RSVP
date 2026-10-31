@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: pallab-papiya-save-the-date
+    runtime: node
+    plan: free
+    rootDir: save-the-date
+    buildCommand: node --check server.mjs && node --check script.js
+    startCommand: node server.mjs
+    healthCheckPath: /
+    envVars:
+      - key: HOST
+        value: 0.0.0.0
