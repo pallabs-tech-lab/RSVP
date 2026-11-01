@@ -22,6 +22,8 @@ The repository-root `render.yaml` configures a free Render web service for this 
 
 Free Render services spin down when idle and have an ephemeral filesystem. RSVP JSON files can be lost when the service spins down, restarts, or redeploys. Use paid persistent storage or a durable database if RSVP responses must be retained.
 
+The repository's GitHub Actions keep-awake workflow requests the site every five minutes until December 1, 2026. Scheduled checks can be delayed, so this may reduce cold starts but does not guarantee uninterrupted availability.
+
 ## Customize
 
 - Change the couple, date, place, and invitation copy in `index.html`.
