@@ -1,6 +1,6 @@
 # Pallab & Papiya — Save the Date
 
-A responsive Bengali wedding invitation with a vermilion-and-gold card design, Bengali lettering, wedding imagery, a live countdown, and an RSVP form backed by a local JSON file.
+A responsive Bengali wedding invitation with a vermilion-and-gold card design, Bengali lettering, wedding imagery, a live countdown, and an interactive guide to Bengali wedding rituals. The RSVP form has been replaced; the server's RSVP API remains available but is no longer linked from the invitation.
 
 ## Run locally
 
@@ -33,3 +33,4 @@ The repository's GitHub Actions keep-awake workflow requests the site every five
 - Customize the alpana artwork in `alpana.svg`.
 - Replace `location-qr.svg` and update its matching venue link in `index.html` to change the scannable map code.
 - Replace `bengali-couple-cutout.png` to change the hero couple photo; replace `bengali-wedding-celebration.png` to change the transparent story image. Its original JPEG is also kept in the project.
+- Replace `topor-cutout.png` or `mukut-cutout.png` to change the groom's topor or bride's mukut in the wedding-rituals section. Their source photos are kept in `image/topor.jpeg` and `image/mukut.jpeg`.

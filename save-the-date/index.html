@@ -29,7 +29,7 @@
         <nav class="navigation" aria-label="Main navigation">
           <a href="#story">OUR STORY</a>
           <a href="#details">THE DETAILS</a>
-          <a class="nav-cta" href="#rsvp">RSVP <span aria-hidden="true">↗</span></a>
+          <a class="nav-cta" href="#rituals">OUR RITUALS <span aria-hidden="true">↗</span></a>
         </nav>
         <div class="live-status"><span class="live-dot"></span> WEDDING DAY SET</div>
       </header>
@@ -37,6 +37,13 @@
       <main id="main">
         <section class="hero" id="home" aria-labelledby="hero-title">
           <div class="hero-grid" aria-hidden="true"></div>
+          <div class="celebration-petals" aria-hidden="true">
+            <span>✿</span>
+            <span>✿</span>
+            <span>✿</span>
+            <span>✿</span>
+            <span>✿</span>
+          </div>
           <div class="invitation-frame" aria-hidden="true"></div>
           <img
             class="wedding-doodle hero-doodle"
@@ -141,28 +148,62 @@
           </div>
         </section>
 
-        <section class="rsvp-section" id="rsvp" aria-labelledby="rsvp-title">
+        <section class="rituals-section" id="rituals" aria-labelledby="rituals-title">
           <div class="alpana-mark" aria-hidden="true"></div>
-          <div class="rsvp-content">
-            <p class="eyebrow" lang="bn">আপনাদের উপস্থিতিই আমাদের আনন্দ</p>
-            <h2 id="rsvp-title">Join us for<br /><em>আনন্দ.</em></h2>
-            <p class="body-copy">Your presence and blessings will make our celebration complete. Please let us know if you can join us.</p>
-            <form class="rsvp-form" id="rsvp-form">
-              <label class="sr-only" for="guest-name">Your name</label>
-              <input id="guest-name" name="name" autocomplete="name" placeholder="YOUR NAME" required maxlength="80" />
-              <label class="sr-only" for="guest-email">Your email</label>
-              <input id="guest-email" name="email" type="email" autocomplete="email" placeholder="YOUR EMAIL ADDRESS" required maxlength="254" />
-              <label class="sr-only" for="guest-count">Number of guests</label>
-              <select id="guest-count" name="guests" aria-label="Number of guests">
-                <option value="1">JUST ME</option>
-                <option value="2">TWO OF US</option>
-                <option value="3">THREE OF US</option>
-                <option value="4">FOUR OF US</option>
-              </select>
-              <button type="submit">COUNT ME IN <span aria-hidden="true">↗</span></button>
-              <p class="form-message" id="form-message" role="status" aria-live="polite" aria-atomic="true"></p>
-            </form>
-            <p class="rsvp-note">YOUR RSVP WILL BE SAVED FOR PALLAB &amp; PAPIYA</p>
+          <div class="rituals-content">
+            <p class="eyebrow" lang="bn">বাঙালি বিয়ের মধুর রীতি</p>
+            <h2 id="rituals-title">Little rituals,<br /><em>lasting memories.</em></h2>
+            <p class="rituals-intro">Every custom carries a little story. Open a card to discover the moments that make a Bengali wedding so special.</p>
+            <figure class="rituals-headwear" aria-hidden="true">
+              <div class="rituals-headwear-pair">
+                <img src="./topor-cutout.png" alt="" />
+                <img src="./mukut-cutout.png" alt="" />
+              </div>
+              <figcaption><span>GROOM'S TOPOR</span><span>BRIDE'S MUKUT</span></figcaption>
+            </figure>
+            <div class="ritual-grid">
+              <details class="ritual-card" open>
+                <summary>
+                  <span class="ritual-number">01</span>
+                  <span class="ritual-title"><span class="ritual-bengali" lang="bn">আইবুড়ো ভাত</span><span>Aiburo Bhaat</span></span>
+                  <span class="ritual-toggle" aria-hidden="true">+</span>
+                </summary>
+                <p>A loving farewell to single life, shared over a special meal with family on the eve of the wedding.</p>
+              </details>
+              <details class="ritual-card">
+                <summary>
+                  <span class="ritual-number">02</span>
+                  <span class="ritual-title"><span class="ritual-bengali" lang="bn">গায়ে হলুদ</span><span>Gaye Holud</span></span>
+                  <span class="ritual-toggle" aria-hidden="true">+</span>
+                </summary>
+                <p>Turmeric, laughter and blessings come together in a joyful celebration with loved ones.</p>
+              </details>
+              <details class="ritual-card">
+                <summary>
+                  <span class="ritual-number">03</span>
+                  <span class="ritual-title"><span class="ritual-bengali" lang="bn">শুভ দৃষ্টি</span><span>Shubho Drishti</span></span>
+                  <span class="ritual-toggle" aria-hidden="true">+</span>
+                </summary>
+                <p>The bride and groom share their first auspicious glance, as family and friends celebrate around them.</p>
+              </details>
+              <details class="ritual-card">
+                <summary>
+                  <span class="ritual-number">04</span>
+                  <span class="ritual-title"><span class="ritual-bengali" lang="bn">মালা বদল</span><span>Mala Badal</span></span>
+                  <span class="ritual-toggle" aria-hidden="true">+</span>
+                </summary>
+                <p>With smiles and playful cheers, the couple exchange flower garlands to welcome their life together.</p>
+              </details>
+              <details class="ritual-card">
+                <summary>
+                  <span class="ritual-number">05</span>
+                  <span class="ritual-title"><span class="ritual-bengali" lang="bn">সিঁদুর দান</span><span>Sindoor Daan</span></span>
+                  <span class="ritual-toggle" aria-hidden="true">+</span>
+                </summary>
+                <p>A tender wedding blessing, when vermilion is placed in the bride’s hair parting to mark the sacred bond.</p>
+              </details>
+            </div>
+            <p class="rituals-signoff">A CELEBRATION OF LOVE, FAMILY &amp; OUR BENGALI ROOTS</p>
           </div>
         </section>
       </main>
